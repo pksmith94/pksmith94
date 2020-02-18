@@ -1,0 +1,109 @@
+body {
+    background-color: #8dbdff;
+    background-image: url(assets/pinstriped-suit.png);
+    font-family: 'Roboto', sans-serif;
+}
+.jumbotron {
+    width: 100%;
+    height: 800px;
+    background-image: url(assets/Philip-2.jpg);
+    background-size: cover;
+    background-position: center;    
+    margin-bottom: 0;
+}
+.nav-logo {
+    margin-left: 3.3em;
+    width: 45px;
+    height: 45px;
+}   
+#about h2 {
+    color:  #256f99;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.3em;
+}
+#about p {
+    text-align: justify;
+}
+#nav h1{
+    color:  #256f99;
+    font-family: 'Playfair Display', serif;
+    margin-left: 0.3em;
+    text-emphasis: none;
+    letter-spacing: 0.1em;
+}
+.navbar-fixed-top {
+    background-color:  transparent !important;
+    background-image: url(assets/background\ lines.png), url(assets/foreground\ lines\ in\ crop.png);
+    background-repeat: repeat, no-repeat;
+    transition: background-color 600ms ease-out !important;
+}
+
+.scrolled {
+    background-color: #F8F9FA !important;
+    transition: background-color 600ms ease-in !important;
+    background-image: url(assets/foreground\ lines\ in\ crop.png);
+    background-repeat: no-repeat;
+}
+.bottom-link{
+    margin-bottom: 2em;
+}
+#nav li a {
+    color: #256f99;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-right: 1em;
+}
+.divider {
+    width: 100%;
+    height: 25vh;
+}
+.button-wrapper{
+    text-align: center;
+}
+#about {
+    background-color: #f8f9fa;
+    padding-left: 100px;
+    padding-right: 83px;
+    padding-top: 95px;
+    padding-bottom: 20px;  
+}
+#github{
+    margin-bottom: 20px;
+}
+.about-link{
+    color:  #256f99;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 800 !important;
+    border-color:  #256f99;
+    margin-top: 0.5em;
+    width: 50%;
+}
+.about-link:hover{
+    color: white;
+    background-color:  #256f99;
+    border-color: #256f99;
+}
+.highlight {
+    transition: all 0.2s;
+    background-color: blue !important;
+    border-radius: 20px !important;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: block;
+}
+#skills h2 {
+    color:  #256f99;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.3em;
+}
+#skills {
+    background-color: #f8f9fa;
+    padding-left: 100px;
+    padding-right: 83px;
+    padding-top: 95px;
+    padding-bottom: 20px;  
+}

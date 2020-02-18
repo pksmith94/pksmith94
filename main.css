@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: #8dbdff;
     background-image: url(assets/pinstriped-suit.png);
@@ -21,6 +24,7 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
     margin-bottom: 0.3em;
+    text-transform: uppercase;
 }
 #about p {
     text-align: justify;
@@ -36,12 +40,11 @@ body {
     background-color:  transparent !important;
     background-image: url(assets/background\ lines.png), url(assets/foreground\ lines\ in\ crop.png);
     background-repeat: repeat, no-repeat;
-    transition: background-color 600ms ease-out !important;
+    transition: background-color 300ms ease-out !important;
 }
-
 .scrolled {
     background-color: #F8F9FA !important;
-    transition: background-color 600ms ease-in !important;
+    transition: background-color 300ms ease-in !important;
     background-image: url(assets/foreground\ lines\ in\ crop.png);
     background-repeat: no-repeat;
 }
@@ -66,7 +69,7 @@ body {
     padding-left: 100px;
     padding-right: 83px;
     padding-top: 95px;
-    padding-bottom: 20px;  
+    padding-bottom: 70px;  
 }
 #github{
     margin-bottom: 20px;
@@ -98,12 +101,136 @@ body {
     color:  #256f99;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
-    margin-bottom: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 #skills {
     background-color: #f8f9fa;
     padding-left: 100px;
     padding-right: 83px;
     padding-top: 95px;
-    padding-bottom: 20px;  
+    padding-bottom: 40px;
+}
+.divider{
+    height: 100px;
+    width: 100%;
+}
+.skill-container{
+    text-align: center;
+}
+.skill-image {
+    height: 200px;
+    width: 200px;
+    /* border: 3px solid #256f99; */
+    padding: 8px;
+    margin: 20px 15px;
+}
+.hoverover:hover{
+    height: 210px;
+    width: 210px;
+}
+.project-tile img {
+    height: 200px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+#portfolio {
+    background-color: #f8f9fa;
+    padding-left: 100px;
+    padding-right: 83px;
+    padding-top: 95px;
+    padding-bottom: 40px;
+}
+#portfolio h2 {
+    color:  #256f99;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.project-tile{
+    margin: 20px;
+    border: 2px solid #256f99;
+    padding: 5px;
+}
+.project-container{
+    text-align: center;
+}
+.card {
+    border: 2px solid  #256f99;
+    border-radius: 6px;
+}
+.card-body{
+    background-color: #256f99;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+    transition: top 300ms ease-in !important;
+}
+#contact h2 {
+    color:  #256f99;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;  
+    margin-bottom: 1em;
+}
+#contact {
+    background-color: #f8f9fa;
+    padding-left: 100px;
+    padding-right: 83px;
+    padding-top: 95px;
+    padding-bottom: 40px;
+}
+.form-container{
+    margin: auto;
+    width: 80%;
+    border: 4px solid #256f99;
+    text-align: center; 
+}
+
+.input-box{
+    display: block;
+    width: 70%;
+    margin: 34px auto;
+    border-radius: 10px;
+    border: 2px solid #256f99;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+input::placeholder{
+    color: #256f99;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+.message-input{
+    height: 100px;
+}
+textarea::placeholder{
+    color: #256f99;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+textarea:focus::placeholder{
+    color: transparent;
+}
+#send-btn {
+    color:  #256f99;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 800 !important;
+    border-color:  #256f99;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#send-btn:hover{
+    color: white;
+    background-color:  #256f99;
+    border-color: #256f99;
 }

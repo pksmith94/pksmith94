@@ -16,13 +16,3 @@ function navScroll(entries, navObserver) {
      });
 }
 navObserver.observe(jumboTron);
-
-const card = document.querySelectorAll('.card');
-
-card.forEach(c => c.addEventListener("mouseover", function(){
-     cardBody = c.querySelector('.card-body');
-     if(!cardBody.classList.contains('.cardbody-hover')){
-          cardBody.classList.add('.cardbody-hover');
-          console.log("hey");
-     }
-}));

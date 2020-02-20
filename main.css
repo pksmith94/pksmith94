@@ -91,13 +91,16 @@ a:hover{
     color:  #256f99;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
     text-transform: uppercase;
 }
 #about p {
     text-align: justify;
     font-size: 20px;
     margin-bottom: 2em; 
+}
+.about-text-container{
+    padding: 0 100px 0 100px;
 }
 .about-link{
     color:  #256f99;

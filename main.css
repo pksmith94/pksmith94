@@ -8,6 +8,7 @@ body {
     background-color: #8dbdff;
     background-image: url(assets/pinstriped-suit.png);
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 .divider {
     height: 100px;

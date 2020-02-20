@@ -25,13 +25,13 @@ document.body.append(highlight);
 function highlightNavLink() {
      highlight.classList.add('highlight');
      const linkCoords = this.getBoundingClientRect();
-      const coords = {
-           width: linkCoords.width - 9,
-           height: linkCoords.height,
-           top: linkCoords.top + window.scrollY,
-           left: linkCoords.left + window.scrollX
-      };
-
+     const coords = {
+          width: linkCoords.width - 9,
+          height: linkCoords.height,
+          top: linkCoords.top + window.scrollY,
+          left: linkCoords.left + window.scrollX
+     };
+     
      highlight.style.width = `${coords.width}px`;
      highlight.style.height = `${coords.height}px`;
      highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
@@ -43,3 +43,4 @@ function stopHighlight(){
 
 triggers.forEach(c => c.addEventListener('mouseenter', highlightNavLink));
 nav.addEventListener('mouseleave', stopHighlight);
+

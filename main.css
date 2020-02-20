@@ -275,12 +275,13 @@ textarea:focus::placeholder{
 #nav h1 {
     font-size: 30px;
 }
-
 .nav-logo{
     height: 30px;
     width: 30px;
 }
-
+.about-text-container{
+    padding: 0 40px 0 40px;
+}
 #skills {
     padding: 50px;
     width: 100%;

@@ -95,15 +95,7 @@ a:hover{
     background-color:  #256f99;
     border-color: #256f99;
 }
-.highlight {
-    transition: all 0.2s;
-    background-color: blue !important;
-    border-radius: 20px !important;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    display: block;
-}
+
 #skills h2 {
     color:  #256f99;
     font-family: 'Roboto', sans-serif;
@@ -239,9 +231,6 @@ textarea:focus::placeholder{
     background-color:  #256f99;
     border-color: #256f99;
 }
-
-/* TODO Word Wrap on Send A Message */
-/* TODO Add About Me */
 .highlight {
     background-color:#8dbdff !important;
     top: 0;
@@ -251,4 +240,6 @@ textarea:focus::placeholder{
     position: absolute;
     z-index: 100000000000;
     transform: (0, 0);
+    pointer-events: none;
+    border-radius: 20px;
 }

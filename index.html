@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="row">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
 </head>
 <body id="top">
     <!-- Nav Bar -->
-    <nav id="nav" class="navbar fixed-top navbar-light bg-light navbar-fixed-top navbar-expand-sm">
+    <nav id="nav" class="navbar fixed-top navbar-light bg-light navbar-fixed-top navbar-expand-sm col-12">
         <!-- Brand/Title -->
         <div class="navbar-brand">
             <img src="assets/PS circle.png" class="nav-logo d-inline align-middle" alt="brand logo">
@@ -40,34 +40,31 @@
             </ul>
         </div>    
     </nav>
-    <section class="jumbotron"></section>
+    <section class="jumbotron col-12"></section>
     <!-- About -->
-    <section id="about">
-        <div class="row">
-            <div class="col-lg-8 col-sm-12">
-                <h2 class="font-weight-bold">About Phil</h2> 
-                <p>I am an aspiring junior developer who loves trivia nights, Broadway musicals, and is obsessed with coding. I am from Connecticut, but fell in love with Indianapolis when I enrolled at Butler University. After I graduated I pursued a career in teaching music, which I believe brings a unique perspective and creativity to my code.</p>
-                <p>I’ve been interested in coding for a long time, and my dream is to enter the Indianapolis tech community as a developer so that I can meld my love for technology with my desire to help people. I hope that the software I help to create can make the lives of people easier, more connected, and full of love.</p>
-                <div class="button-wrapper">
-                    <a class="btn btn-outline-primary about-link col-5" href="assets/First Draft.pdf" target="blank">Resume</a>
-                    <a class="btn btn-outline-primary about-link col-5" href="https://www.linkedin.com/in/philip-smith-820623199/" target="blank">LinkedIn</a>
-                    <a class="btn btn-outline-primary about-link col-5 bottom-link" href="http://github.com/pksmith94" target="blank">GitHub</a>
-                    <a class="btn btn-outline-primary about-link col-5 bottom-link" href="https://twitter.com/pksmith94" target="blank">Twitter</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 text-center">
-                <img src="assets/Philip-4.jpg" id="profile-pic" class="rounded img-fluid" alt="a picture of me">
-            </div>
+    <section id="about" class="col-12">
+       
+        <div class="float-left">
+            <h2 class="font-weight-bold">About Phil</h2> 
+            <p>I am an aspiring junior developer who loves trivia nights, Broadway musicals, and is obsessed with coding. I am from Connecticut, but fell in love with Indianapolis when I enrolled at Butler University. After I graduated I pursued a career in teaching music, which I believe brings a unique perspective and creativity to my code.</p>
+            <p>I’ve been interested in coding for a long time, and my dream is to enter the Indianapolis tech community as a developer so that I can meld my love for technology with my desire to help people. I hope that the software I help to create can make the lives of people easier, more connected, and full of love.</p>
+        </div>    
+        <div class="button-wrapper">
+            <a class="btn btn-outline-primary about-link col-5" href="assets/First Draft.pdf" target="blank">Resume</a>
+            <a class="btn btn-outline-primary about-link col-5" href="https://www.linkedin.com/in/philip-smith-820623199/" target="blank">LinkedIn</a>
+            <a class="btn btn-outline-primary about-link col-5 bottom-link" href="http://github.com/pksmith94" target="blank">GitHub</a>
+            <a class="btn btn-outline-primary about-link col-5 bottom-link" href="https://twitter.com/pksmith94" target="blank">Twitter</a>
         </div>
+        
     </section>
-    <div class="divider"></div>
+    <div class="divider col-12"></div>
     <!-- Skills -->
     <section id="skills">
         <h2 class="font-weight-bold">Skills</h2>
         <div class="skill-container">
             <div class="row">
                 <h3 class="col-lg-4 skill-text">C#</h3>
-                <h3 class="col-lg-4 skill-text">BootStrap</h3>
+                <h3 id="bootstrap" class="col-lg-4 skill-text">BootStrap</h3>
                 <h3 class="col-lg-4 skill-text">CSS</h3>
             </div>
             <div class="row">
@@ -82,26 +79,26 @@
             </div>
         </div>
     </section>
-    <div class="divider"></div>
+    <div class="divider col-12"></div>
     <!-- Portfolio -->
     <section id="portfolio">
         <h2 class="font-weight-bold">Portfolio</h2>
         <div class="card-deck">
-            <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="assets/MineField.png" alt="Card image cap">
+            <div class="card d-sm-block" style="width: 20rem;">
+                <img class="card-img-top img-fluid" src="assets/MineField.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">Two-player console game built in C# using Visual Studio.</p>
                 </div>
             </div>
-            <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="assets/StaticStoreFront.png" alt="Card image cap">
+            <div class="card d-sm-block" style="width: 20rem;">
+                <img class="card-img-top img-fluid" src="assets/StaticStoreFront.png" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">Static store-front website built in HTML, CSS, and Javascript.</p>
                 </div>
             </div>
         </di>
     </section>
-    <div class="divider"></div>
+    <div class="divider col-12"></div>
     <!-- Contact Form -->
     <section id="contact">
         <h2 class="font-weight-bold">Send A Message</h2>

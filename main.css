@@ -1,17 +1,64 @@
+/* Global Styling */
+
 html{
     scroll-behavior: smooth;
+    width: 100%;
+    margin: 0;
 }
 body {
     background-color: #8dbdff;
     background-image: url(assets/pinstriped-suit.png);
     font-family: 'Roboto', sans-serif;
 }
+.divider {
+    height: 100px;
+    width: 100%;
+}
+.highlight {
+    background-color:#8dbdff !important;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    transition: all 0.2s;
+    position: absolute;
+    z-index: 100000000000;
+    transform: (0, 0);
+    pointer-events: none;
+    border-radius: 20px;
+}
 a:hover{
     text-decoration: none;
 }
+/* Nav Styling */
+
 #nav {
     width: 100%;
 }
+#nav h1{
+    color:  #256f99;
+    font-family: 'Playfair Display', serif;
+    margin-left: 0.3em;
+    text-emphasis: none;
+    letter-spacing: 0.1em;
+}
+#nav li a {
+    color: #256f99;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-right: 1em;
+}
+.navbar-fixed-top {
+    background-color:  transparent !important;
+    background-image: url(assets/background\ lines.png), url(assets/foreground\ lines\ in\ crop.png);
+    background-repeat: repeat, no-repeat;
+    transition: background-color 300ms ease-out !important;
+}
+
+.nav-logo {
+    margin-left: 3.3em;
+    width: 45px;
+    height: 45px;
+}   
 .jumbotron {
     width: 100%;
     height: 800px;
@@ -20,11 +67,27 @@ a:hover{
     background-position: center;    
     margin-bottom: 0;
 }
-.nav-logo {
-    margin-left: 3.3em;
-    width: 45px;
-    height: 45px;
-}   
+.scrolled {
+    background-color: #F8F9FA !important;
+    transition: background-color 300ms ease-in !important;
+    background-image: url(assets/foreground\ lines\ in\ crop.png);
+    background-repeat: no-repeat;
+}
+
+/* About Styling */
+
+#about {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding-left: 100px;
+    padding-right: 83px;
+    padding-top: 95px;
+    padding-bottom: 70px;  
+}
+#profile-pic{
+    height: 100px;
+    width: 100px;
+}
 #about h2 {
     color:  #256f99;
     font-family: 'Roboto', sans-serif;
@@ -34,52 +97,8 @@ a:hover{
 }
 #about p {
     text-align: justify;
-}
-#nav h1{
-    color:  #256f99;
-    font-family: 'Playfair Display', serif;
-    margin-left: 0.3em;
-    text-emphasis: none;
-    letter-spacing: 0.1em;
-}
-.navbar-fixed-top {
-    background-color:  transparent !important;
-    background-image: url(assets/background\ lines.png), url(assets/foreground\ lines\ in\ crop.png);
-    background-repeat: repeat, no-repeat;
-    transition: background-color 300ms ease-out !important;
-}
-.scrolled {
-    background-color: #F8F9FA !important;
-    transition: background-color 300ms ease-in !important;
-    background-image: url(assets/foreground\ lines\ in\ crop.png);
-    background-repeat: no-repeat;
-}
-.bottom-link{
-    margin-bottom: 2em;
-}
-#nav li a {
-    color: #256f99;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    padding-right: 1em;
-}
-.divider {
-    width: 100%;
-    height: 25vh;
-}
-.button-wrapper{
-    text-align: center;
-}
-#about {
-    width: 100%;
-    background-color: #f8f9fa;
-    padding-left: 100px;
-    padding-right: 83px;
-    padding-top: 95px;
-    padding-bottom: 70px;  
-}
-#github{
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 2em; 
 }
 .about-link{
     color:  #256f99;
@@ -95,14 +114,13 @@ a:hover{
     background-color:  #256f99;
     border-color: #256f99;
 }
-
-#skills h2 {
-    color:  #256f99;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 1em;
+.button-wrapper{
+    text-align: center;
 }
+
+
+/* Skill Styling */
+
 #skills {
     width: 100%;
     background-color: #f8f9fa;
@@ -111,9 +129,12 @@ a:hover{
     padding-top: 95px;
     padding-bottom: 40px;
 }
-.divider{
-    height: 100px;
-    width: 100%;
+#skills h2 {
+    color:  #256f99;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 .skill-container{
     text-align: center;
@@ -127,9 +148,10 @@ a:hover{
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
-.project-tile img {
-    margin-bottom: 10px;
-}
+
+
+/* Portfolio Styling */
+
 #portfolio {
     width: 100%;
     background-color: #f8f9fa;
@@ -138,16 +160,19 @@ a:hover{
     padding-top: 95px;
     padding-bottom: 40px;
 }
-.card-deck{
-    text-align: center;
-    margin-bottom: 5em; 
-}
 #portfolio h2 {
     color:  #256f99;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 1em;
+}
+.project-tile img {
+    margin-bottom: 10px;
+}
+.card-deck{
+    text-align: center;
+    margin-bottom: 5em; 
 }
 .project-tile{
     margin: 20px;
@@ -170,13 +195,11 @@ a:hover{
     text-align: center;
     transition: top 300ms ease-in !important;
 }
-#contact h2 {
-    color:  #256f99;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;  
-    margin-bottom: 1em;
-}
+
+
+/* Contact Styling */
+
+
 #contact {
     width: 100%;
     background-color: #f8f9fa;
@@ -184,6 +207,13 @@ a:hover{
     padding-right: 83px;
     padding-top: 95px;
     padding-bottom: 40px;
+}
+#contact h2 {
+    color:  #256f99;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;  
+    margin-bottom: 1em;
 }
 .form-container{
     margin: auto;
@@ -235,15 +265,37 @@ textarea:focus::placeholder{
     background-color:  #256f99;
     border-color: #256f99;
 }
-.highlight {
-    background-color:#8dbdff !important;
-    top: 0;
-    left: 0;
-    opacity: 0.25;
-    transition: all 0.2s;
-    position: absolute;
-    z-index: 100000000000;
-    transform: (0, 0);
-    pointer-events: none;
-    border-radius: 20px;
+
+/* Media Queries */
+
+@media (max-width: 400px) {
+
+#nav h1 {
+    font-size: 30px;
+}
+
+.nav-logo{
+    height: 30px;
+    width: 30px;
+}
+
+#skills {
+    padding: 50px;
+    width: 100%;
+}
+#bootstrap{
+    word-wrap: break-word;
+}
+#about {
+    padding: 50px;
+    width: 100%;
+}    
+#portfolio {
+    padding: 50px;
+    width: 100%;
+}
+#contact {
+    padding: 50px;
+}
+
 }

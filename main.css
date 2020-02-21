@@ -302,10 +302,10 @@ textarea:focus::placeholder{
 #portfolio {
     padding: 20px;
     width: 100%;
+    margin: auto;
 }
 .card-deck{
-    margin-right: 10px;
-    
+    margin: auto !important;
 }
 #contact {
     padding: 50px;

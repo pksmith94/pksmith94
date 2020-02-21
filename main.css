@@ -310,5 +310,7 @@ textarea:focus::placeholder{
 #contact {
     padding: 50px;
 }
-
+.hightlight {
+    display: none;
+}
 }

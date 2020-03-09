@@ -5,8 +5,8 @@ html {
     margin: 0;
 }
 body {
-    background-color: white;
-    background-image: url(assets/pinstriped-suit.png);
+    background-color: #F8F9FA;
+    /* background-image: url(assets/pinstriped-suit.png); */
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }

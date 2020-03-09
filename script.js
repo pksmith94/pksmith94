@@ -2,7 +2,7 @@ const jumboTron = document.querySelector('.jumbotron');
 const navbar = document.querySelector('.navbar');
 
 const options = { 
-     rootMargin: "-600px 0px 0px 0px"
+     rootMargin: "-605px 0px 0px 0px"
 };
 const navObserver = new IntersectionObserver(navScroll, options);
 function navScroll(entries, navObserver) {
@@ -18,7 +18,6 @@ function navScroll(entries, navObserver) {
 navObserver.observe(jumboTron);
 
 const triggers = document.querySelectorAll('.nav-link');
-const nav = document.getElementById("nav");
 const highlight = document.createElement('span');
 document.body.append(highlight);
 
@@ -42,5 +41,5 @@ function stopHighlight(){
 }
 
 triggers.forEach(c => c.addEventListener('mouseenter', highlightNavLink));
-nav.addEventListener('mouseleave', stopHighlight);
+triggers.forEach(c => c.addEventListener('mouseleave', stopHighlight));
 

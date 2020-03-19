@@ -338,3 +338,25 @@ textarea:focus::placeholder{
     display: none;
 }
 }
+
+@media (min-width: 1500px) {
+    .jumbotron{
+        background-position: center top;
+        height: 1000px;
+    }
+    .divider{
+        height: 20px;
+    }
+    #about {
+        padding: 15rem;
+    }
+    #skills {
+        padding: 15rem;
+    }
+    #portfolio {
+        padding: 15rem;
+    }
+    #contact {
+        padding: 15rem;
+    }
+}

@@ -97,11 +97,12 @@ a:hover{
     text-transform: uppercase;
 }
 #about p {
-    text-align: justify;
+    text-align: left;
     font-size: 20px;
     margin-bottom: 2em; 
 }
 .about-text-container{
+    color:  #256f99;
     padding: 0 100px 0 100px;
 }
 .about-link{
@@ -200,28 +201,41 @@ a:hover{
     text-align: center;
     margin-bottom: 5em; 
 }
-.project-tile{
-    margin: 20px;
-    border: 2px solid #256f99;
-    padding: 5px;
-}
-.project-container{
-    text-align: center;
-}
 .card {
-    border: 2px solid  #256f99;
-    border-radius: 6px;
+    border: 1px solid  #256f99;
+    border-radius: 2px;
+}
+.card-title{
+    margin-bottom: 1em;
+}
+.card-text{
+    margin-bottom: 2em;
+    line-height: 1.7em;
 }
 .card-body{
-    background-color: #256f99;
+    background-color:#f8f9fa;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0.1em;
-    color: white;
-    text-align: center;
+    color: #256f99;
+    text-align: left;
     transition: top 300ms ease-in !important;
 }
-
+.git-link{
+    color:  #256f99;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 800 !important;
+    border-color:  #256f99;
+    margin-top: 0.5em;
+    float: right;
+}
+.git-link:hover{
+    color:  #f8f9fa;
+    background-color:  #256f99;
+    border-color: #256f99;
+}
 
 /* Contact Styling */
 
@@ -251,7 +265,7 @@ a:hover{
     width: 80%;
     margin: 34px auto;
     border-radius: 10px;
-    border: 2px solid #256f99;
+    border: 1px solid #256f99;
     height: 40px;
     padding-left: 10px;
     padding-top: 2px;

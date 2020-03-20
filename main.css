@@ -239,7 +239,7 @@ a:hover{
     text-align: justify;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .git-link{
     color:  #256f99;
@@ -345,18 +345,26 @@ textarea:focus::placeholder{
 .about-text-container{
     padding: 0 40px 0 40px;
 }
+.button-group{
+    float: none;
+    position: static;
+}
+.button-group li {
+    width: 100px;
+    position: static;
+} 
 #skills {
     padding: 50px;
     width: 100%;
 }
-.skill-text{
-    font-size: 33px !important;
+#skills p {
+    font-size: 11.5px !important;
 }
 #bootstrap{
     word-wrap: break-word;
 }
 #about {
-    padding: 30px;
+    padding: 20px;
     width: 100%;
 }    
 #portfolio {

@@ -18,7 +18,7 @@ body {
     background-color:#8dbdff !important;
     top: 0;
     left: 0;
-    opacity: 0.25;
+    opacity: 0.20;
     transition: all 0.2s;
     position: absolute;
     z-index: 100000000000;
@@ -344,19 +344,19 @@ textarea:focus::placeholder{
         background-position: center top;
         height: 1000px;
     }
-    .divider{
-        height: 20px;
-    }
     #about {
-        padding: 15rem;
+        padding: 15rem 17rem;
+    }
+    .large-screen-text {
+        font-size: 25px !important;
     }
     #skills {
-        padding: 15rem;
+        padding: 15rem 17rem;
     }
     #portfolio {
-        padding: 15rem;
+        padding: 15rem 17rem;
     }
     #contact {
-        padding: 15rem;
+        padding: 15rem 17rem;
     }
 }

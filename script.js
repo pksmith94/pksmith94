@@ -42,4 +42,4 @@ function stopHighlight(){
 
 triggers.forEach(c => c.addEventListener('mouseenter', highlightNavLink));
 triggers.forEach(c => c.addEventListener('mouseleave', stopHighlight));
-
+triggers.forEach(c => c.addEventListener('click', stopHighlight));

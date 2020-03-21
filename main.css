@@ -268,7 +268,7 @@ a:hover{
     padding-left: 100px;
     padding-right: 83px;
     padding-top: 95px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
 #contact h2 {
     color:  #256f99;
@@ -326,6 +326,18 @@ textarea:focus::placeholder{
     background-color:  #256f99;
     border-color: #256f99;
 }
+
+/* Footer Styling */
+footer {
+    background-color: #256f99;
+    height: 60px;
+}
+footer img {
+    float: right;
+    margin-right: 1.5em;
+    height: 60px;
+}
+
 
 /* Media Queries */
 

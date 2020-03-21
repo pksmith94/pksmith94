@@ -343,16 +343,29 @@ textarea:focus::placeholder{
     margin-left: 20px;
 }
 .about-text-container{
-    padding: 0 40px 0 40px;
+    padding: 0 20px 0 20px;
+}
+.about-text-container p {
+    margin: 0;
+}
+li.about-link {
+    display: block;
+    align-content: center;
+    height: 30px;
+    width: 200px;
+    margin: 1em auto;
+    padding: 0;
 }
 .button-group{
     float: none;
     position: static;
+    width: 100%;
+    padding: 0;
 }
-.button-group li {
+/* .button-group li {
     width: 100px;
     position: static;
-} 
+}  */
 #skills {
     padding: 50px;
     width: 100%;
